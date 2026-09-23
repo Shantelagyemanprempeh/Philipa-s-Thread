@@ -1,1 +1,217 @@
-# Philipa-s-Thread
+[index.html](https://github.com/user-attachments/files/32562868/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philipa's Thread | Custom Orders & Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fdf4f5',
+                            100: '#fbe8eb',
+                            500: '#e05a74',
+                            600: '#cc4560',
+                            700: '#ab344d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-700 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium">
+        ✨ Custom Sewing & Ready-to-Wear | 📍 Achimota, near GH Media School | Call / WhatsApp: <a href="https://wa.me/233203029156" class="underline font-bold">+233 20 3029156</a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <a href="#" class="text-2xl font-serif font-bold text-brand-700 tracking-wide">Philipa's Thread</a>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#home" class="text-gray-600 hover:text-brand-600 transition">Home</a>
+                <a href="#services" class="text-gray-600 hover:text-brand-600 transition">What We Do</a>
+                <a href="#gallery" class="text-gray-600 hover:text-brand-600 transition">Style Gallery</a>
+                <a href="#about" class="text-gray-600 hover:text-brand-600 transition">About Us</a>
+                <a href="#contact" class="text-gray-600 hover:text-brand-600 transition">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/233203029156?text=Hello%20Philipa's%20Thread,%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition flex items-center space-x-2 shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span class="hidden sm:inline">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-brand-50 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center lg:text-left">
+                <span class="inline-block bg-brand-100 text-brand-700 text-xs uppercase tracking-widest px-3 py-1 rounded-full font-semibold">Exquisite Tailoring & Fashion</span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight">
+                    Custom Styles, <span class="text-brand-600">Tailored For You</span>
+                </h1>
+                <p class="text-gray-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0">
+                    Explore our design concepts, select a style you love, and send us a direct message on WhatsApp to discuss your measurements, fabrics, and orders.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                    <a href="#gallery" class="bg-brand-600 hover:bg-brand-700 text-white font-medium px-8 py-3.5 rounded-lg shadow-md transition text-center">View Style Gallery</a>
+                    <a href="https://wa.me/233203029156?text=Hello,%20I%20want%20to%20order%20a%20custom%20dress." target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-medium px-8 py-3.5 rounded-lg transition text-center flex items-center justify-center space-x-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Order via WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=800&q=80" alt="African Fashion Boutique" class="rounded-2xl shadow-xl w-full object-cover h-[450px]">
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Offer Section -->
+    <section id="services" class="py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-4">Our Services</h2>
+            <p class="text-gray-600">How you can place an order with us</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center space-y-4">
+                <div class="w-14 h-14 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center mx-auto text-xl font-bold">1</div>
+                <h3 class="font-serif font-bold text-xl text-gray-900">Choose a Style</h3>
+                <p class="text-gray-600 text-sm">Browse our style gallery below or send us a picture of a design you want sewn.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center space-y-4">
+                <div class="w-14 h-14 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center mx-auto text-xl font-bold">2</div>
+                <h3 class="font-serif font-bold text-xl text-gray-900">Chat on WhatsApp</h3>
+                <p class="text-gray-600 text-sm">Click any order button to message us directly with your preferred style and size details.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center space-y-4">
+                <div class="w-14 h-14 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center mx-auto text-xl font-bold">3</div>
+                <h3 class="font-serif font-bold text-xl text-gray-900">Delivery or Pickup</h3>
+                <p class="text-gray-600 text-sm">We prepare your outfit and arrange safe delivery straight to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style Gallery Section -->
+    <section id="gallery" class="bg-brand-50 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-4">Style Inspiration Gallery</h2>
+                <p class="text-gray-600">Like a style? Click the button below each photo to send us a message on WhatsApp about it!</p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1: Party Dresses -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden group">
+                    <div class="relative overflow-hidden aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80" alt="Party Dresses" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif font-bold text-gray-900 text-xl">Party & Occasion Styles</h3>
+                        <p class="text-gray-600 text-sm">Stunning vibrant prints and custom styles perfect for weddings, parties, and celebrations.</p>
+                        <a href="https://wa.me/233203029156?text=Hello,%20I%20am%20interested%20in%20ordering%20a%20Party%20Dress%20style." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg transition flex items-center justify-center space-x-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Inquire / Order via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 2: Chic Corporate Wear -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden group">
+                    <div class="relative overflow-hidden aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Chic Corporate Suit" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif font-bold text-gray-900 text-xl">Chic Corporate Wear</h3>
+                        <p class="text-gray-600 text-sm">Smart office wear, tailored suits, and classy African print corporate shifts for the modern professional.</p>
+                        <a href="https://wa.me/233203029156?text=Hello,%20I%20am%20interested%20in%20ordering%20a%20Corporate%20Wear%20style." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg transition flex items-center justify-center space-x-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Inquire / Order via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 3: Evening Dinner Gown -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden group">
+                    <div class="relative overflow-hidden aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80" alt="Elegance Evening Gown" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif font-bold text-gray-900 text-xl">Evening Dinner Gowns</h3>
+                        <p class="text-gray-600 text-sm">Breathtaking floor-length gowns and stylish mixes tailored for red carpets and high-end evening dinners.</p>
+                        <a href="https://wa.me/233203029156?text=Hello,%20I%20am%20interested%20in%20ordering%20an%20Evening%20Dinner%20Gown." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg transition flex items-center justify-center space-x-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Inquire / Order via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80" alt="About Philipa's Thread" class="rounded-2xl shadow-xl w-full object-cover h-[400px]">
+            </div>
+            <div class="space-y-6">
+                <span class="text-brand-700 text-xs uppercase tracking-widest font-semibold">About Our Store</span>
+                <h2 class="text-3xl font-serif font-bold text-gray-900">Dedicated to Quality, Style, and Exceptional Service</h2>
+                <p class="text-gray-600">
+                    Welcome to Philipa's Thread! Located at Achimota (near GH Media School), we take pride in bringing out the best look in every woman. Every fabric is hand-selected for its comfort, durability, and stunning aesthetic.
+                </p>
+                <p class="text-gray-600">
+                    Have a unique fabric or design in mind? Reach out to us directly, and let us bring your fashion vision to reality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-brand-50 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <h2 class="text-3xl font-serif font-bold text-gray-900">Ready to Get Started?</h2>
+            <p class="text-gray-600 max-w-xl mx-auto">Visit us at <strong>Achimota (near GH Media School)</strong> or send us a message on WhatsApp to talk about your clothing requests, measurements, and delivery options.</p>
+            <div class="flex justify-center gap-4">
+                <a href="https://wa.me/233203029156?text=Hello%20Philipa's%20Thread,%20I%20have%20an%20inquiry." target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-medium px-8 py-3.5 rounded-lg transition shadow-md flex items-center space-x-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Chat on WhatsApp (+233 20 3029156)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <span class="text-2xl font-serif font-bold tracking-wide">Philipa's Thread</span>
+                <p class="text-gray-400 text-sm mt-1">Quality clothing and traditional elegance •Located at Achimota, near GH Media School</p>
+            </div>
+            <div class="flex space-x-6 text-gray-400">
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-facebook text-xl"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">&copy; 2026 Philipa's Thread. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
